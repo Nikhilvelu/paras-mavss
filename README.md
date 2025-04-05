@@ -1,12 +1,3 @@
-<p align="center">
-<img width="459" alt="notify" src="https://user-images.githubusercontent.com/1679089/83109222-deee5300-a075-11ea-890e-5588f347ce8d.png">
-
-<h4 align="center">Mobile Application Vulnerability Scanner</h4>
-<p align="center">
-  <a href="https://twitter.com/sho_luv">
-  <img src="https://img.shields.io/badge/Twitter-%40sho_luv-blue.svg">
-  </a>
-</p>
 
 
 # mavs.sh
