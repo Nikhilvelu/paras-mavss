@@ -1,8 +1,8 @@
 #! /bin/bash
 
 ############################################
-# by Leon Johnson @sho_luv
-#
+
+
 # This is a program to parse automate testing
 # apk files. It is intended to fill gap of tools
 # that do not show users how to verify findings
@@ -75,21 +75,7 @@ VERBOSE=""
 scriptVersion='1.0'
 
 
-banner="
-                                   ╓
-                        ╕         ╒╣╕                     ╣╣╣─    ╦╣╣
-                ╓      ║╬         ╣╣╣      ╒             ╣╣╣─  ╒╣╣╩╙╣╬║╣
-                ╣╕     ╣╣        ╫╣ ╫╣     ╡  ╔         ╣╣╣   ╦╣╩   ║╣╬
-               ╣╣╣    ║╣╣╬      ╔╣╩  ╫╣╖  ╞╬  ╣╣       ╣╣╣   ╣╣╬    ╞╩
-             ╒╣╣╩╣╣╖ ╔╣╬╣╣╕    ╔╣╣╗╗╦╦╣╣╦╦╣╣  ╣╣╣     ╣╣╣     ╙╣╣╣╦╗╖
-            ╔╣╣╜  ╝╣╣╣╜ ╙╣╣═╩╜║╣╣╜     ╫╣╖     ╣╣╣  ╒╣╣╣          ╠╜╝╣╣╣╣╗╖
-          ╓╣╣╩           ╚╣╣ ╦╣╬        ╚╣╗     ╣╣╬╓╣╣╬      ╓╦╣╣╣╩      ╙╙╝╣╣╣╗╖
-        ╒╣╣╬╗╗╗           ╚╣╣╖           ╙╣╣╗   ╙╣╣╣╣╩    ╓╣╣╩╙ ║╣             ╙╣╣╣╖
-      ╓╣╣╝╜╙╙╙╙            ╚╣╣╖╦           ╙╝╣╗╖ ╫╣╣╬    ├╣╣╖    ╬           ╓╓╗╣╣╣╩
-                       ║╣╣╣╣╣╣╣╣╣╖           ╓╣╣╣ ╣╬      ╙╙╝╣╣╣╣╣╣╣╣╣╣╣╣╣╣╣╝╝╜╙╙
-                             └╙╙╨╝╝╝╝╝╝╝╝╝╨╜╜╙╙╙   ╣
 
-		${BWhite}Mobile Application Vulnerability Scanner${Off} | ${BYellow}@sho_luv${Off}
 "
 
 # code from: https://natelandau.com/boilerplate-shell-script-template/
